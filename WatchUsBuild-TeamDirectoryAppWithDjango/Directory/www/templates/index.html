@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Directory </title>
+</head>
+
+<body>
+  <h1> Allah Akbar </h1>
+  {% for person in people %}
+    <img src="{{person.image}}" />
+    <p>{{person.name}}</P>
+    <p>{{person.email}}</P>
+    <p>{{person.title}}</P>
+  {% endfor %}
+</body>
+
+</html>
